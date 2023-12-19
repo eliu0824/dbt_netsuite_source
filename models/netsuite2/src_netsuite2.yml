@@ -79,6 +79,8 @@ sources:
       - name: accounting_period_fiscal_calendars
         identifier: "{{ var('netsuite2_accounting_period_fiscal_calendars_identifier', 'accountingperiodfiscalcalendars') }}"
         description: "{{ doc('accounting_period_fiscal_calendars_table') }}"
+        config:
+          enabled: "{{ var('netsuite2__using_multi_calendar', true) }}"
         columns:
           - name: _fivetran_id
             description: "{{ doc('_fivetran_id') }}"
