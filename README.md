@@ -116,6 +116,7 @@ vars:
     netsuite2__using_exchange_rate: false #True by default. Disable `exchange_rate` if you don't utilize exchange rates. If you set this variable to false and are using the `netsuite` transformation package, ensure it is scoped globally so that the `netsuite` package can access it as well.  
     netsuite2__using_vendor_categories: false # True by default. Disable `vendorcategory` if you don't categorize your vendors
     netsuite2__using_jobs: false # True by default. Disable `job` if you don't use jobs
+    netsuite2__using_multi_calendar: false # True by default. Disable `accountingperiodfiscalcalendar` if you don't use the multi calendar feature
 
 ```
 > **Note**: The Netsuite dbt package currently only supports disabling transforms of [Multi-Book Accounting](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/book_3831565332.html) related tables (`accountingbooksubsidiary` and `accountingbook`), the `vendorcategory` source table, and the `job` source table. Please create an issue to request additional tables and/or [features](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/bridgehead_N233872.html) to exclude. 
