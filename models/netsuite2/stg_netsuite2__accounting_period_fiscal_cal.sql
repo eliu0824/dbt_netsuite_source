@@ -1,4 +1,4 @@
-{{ config(enabled=(var('netsuite_data_model', 'netsuite') == var('netsuite_data_model_override','netsuite2') and var('netsuite2_using_multi_calendar', true))) }}
+{{ config(enabled=(var('netsuite_data_model', 'netsuite') == var('netsuite_data_model_override','netsuite2') and var('netsuite2__using_multi_calendar', true))) }}
 
 with base as (
 
