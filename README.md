@@ -118,6 +118,7 @@ vars:
     netsuite2__using_jobs: false # True by default. Disable `job` if you don't use jobs
     netsuite2__using_multi_calendar: false # True by default. Disable `accountingperiodfiscalcalendar` if you don't use the multi calendar feature
     netsuite2__using_subsidiares: false # True by default. Disable `subsidiaries` if you don't have multiple subsidiaries
+    netsuite2__using_entities_data: false # True by default. Disable `entity` and `entityaddress` if you don't use entity data
 
 ```
 > **Note**: The Netsuite dbt package currently only supports disabling transforms of [Multi-Book Accounting](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/book_3831565332.html) related tables (`accountingbooksubsidiary` and `accountingbook`), the `vendorcategory` source table, the `job` source table, the `accountingbookfiscalperiod` source table, and the `subsidiary` source table. Please create an issue to request additional tables and/or [features](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/bridgehead_N233872.html) to exclude. 
