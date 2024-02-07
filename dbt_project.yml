@@ -48,6 +48,7 @@ vars:
     netsuite2_subsidiaries: "{{ source('netsuite2','subsidiary') }}"
     netsuite2_transaction_accounting_lines: "{{ source('netsuite2','transaction_accounting_line') }}"
     netsuite2_transaction_lines: "{{ source('netsuite2','transaction_line') }}"
+    netsuite2_transaction_status: "{{ source('netsuite2','transactionstatus') }}"
     netsuite2_transactions: "{{ source('netsuite2','transaction') }}"
     netsuite2_vendors: "{{ source('netsuite2','vendor') }}"
     netsuite2_vendor_categories: "{{ source('netsuite2', 'vendor_category') }}"
