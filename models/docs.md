@@ -28,6 +28,8 @@
 
 {% docs transaction_lines_table %} A table detailing all transaction lines for all transactions. {% enddocs %}
 
+{% docs transaction_status_table %} A table containing the various transaction statuses within Netsuite. {% enddocs %}
+
 {% docs transaction_table %} A table detailing all transactions. {% enddocs %}
 
 {% docs vendor_types_table %} A table detailing all the various types of vendors. {% enddocs %}

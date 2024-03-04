@@ -543,6 +543,21 @@ sources:
           - name: taxline
             description: Boolean indicating if the transaction line is a tax line. Represented as "T" or "F" for true and false respectively.
 
+      - name: transaction_status
+        identifier: "{{ var('netsuite2_transaction_status_identifier', 'transactionstatus') }}"
+        description: "{{ doc('transaction_status_table') }}"
+        columns:
+          - name: _fivetran_synced
+            description: "{{ doc('_fivetran_synced') }}"
+          - name: id
+            description: "{{ doc('transaction_id') }}"
+          - name: fullname
+            description: Status of the transaction.
+          - name: name
+            description: Abbreviated status of the transaction
+          - name: trantype
+            description: The type of the transaction
+
       - name: transaction
         identifier: "{{ var('netsuite2_transaction_identifier', 'transaction') }}"
         description: "{{ doc('transaction_table') }}"
