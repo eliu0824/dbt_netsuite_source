@@ -25,6 +25,8 @@ final as (
         id as transaction_line_id,
         transaction as transaction_id,
         linesequencenumber as transaction_line_number,
+        item_count,
+        quantity_received_in_shipment,
         memo,
         entity as entity_id,
         item as item_id,
