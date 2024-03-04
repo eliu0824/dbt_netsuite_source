@@ -40,6 +40,7 @@ vars:
     netsuite2_subsidiary_identifier: "netsuite2_subsidiary_data"
     netsuite2_transaction_accounting_line_identifier: "netsuite2_tran_acct_line_data"
     netsuite2_transaction_line_identifier: "netsuite2_transaction_line_data"
+    netsuite2_transaction_status_identifier: "netsuite2_transaction_status_data"
     netsuite2_transaction_identifier: "netsuite2_transaction_data"
     netsuite2_vendor_identifier: "netsuite2_vendor_data"
     netsuite2_vendor_category_identifier: "netsuite2_vendor_category_data"

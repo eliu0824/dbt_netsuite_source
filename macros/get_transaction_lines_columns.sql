@@ -30,6 +30,8 @@
     {"name": "transaction", "datatype": dbt.type_int()},
     {"name": "linesequencenumber", "datatype": dbt.type_int()},
     {"name": "memo", "datatype": dbt.type_string()},
+    {"name": "item_count", "datatype": dbt.type_int()},
+    {"name": "quantity_received_in_shipment", "datatype": dbt.type_int()},
     {"name": "entity", "datatype": dbt.type_int()},
     {"name": "item", "datatype": dbt.type_int()},
     {"name": "class", "datatype": dbt.type_int()},
